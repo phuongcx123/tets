@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'caophuong/ez_code',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'caophuong/ez_code' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'eftec/bladeone' => array(
+            'pretty_version' => '4.10',
+            'version' => '4.10.0.0',
+            'reference' => 'a886138f6c8c3cd3ba4a78a028782e1fffe05260',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../eftec/bladeone',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'phroute/phroute' => array(
+            'pretty_version' => 'v2.2.0',
+            'version' => '2.2.0.0',
+            'reference' => 'c1893b885966a0c7b50b9239dd867fda7a312dfa',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phroute/phroute',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
